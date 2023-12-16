@@ -1,160 +1,201 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+import turtle             
+wn = turtle.Screen()     
+lolo = turtle.Turtle()
+wn.bgcolor("black")
+lolo.color("green")
+lolo.pensize(3)
+lolo.speed(5)
 
-# C extensions
-*.so
+def writeA():
+    lolo.forward(50)
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+    lolo.penup()
+    lolo.forward(5)
+    lolo.pendown()
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+    lolo.forward(50)
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+    lolo.penup()
+    lolo.right(90)
+    lolo.forward(5)
+    lolo.pendown()
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
+    lolo.forward(50)
 
-# Translations
-*.mo
-*.pot
+    lolo.penup()
+    lolo.forward(5)
+    lolo.pendown()
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
+    lolo.right(90)
 
-# Flask stuff:
-instance/
-.webassets-cache
+    lolo.forward(50)
 
-# Scrapy stuff:
-.scrapy
+    lolo.penup()
+    lolo.forward(5)
+    lolo.pendown()
 
-# Sphinx documentation
-docs/_build/
+    lolo.forward(50)
 
-# PyBuilder
-.pybuilder/
-target/
+    lolo.penup()
+    lolo.right(180)
+    lolo.forward(105/2)
+    lolo.left(90)
+    lolo.forward(5)
 
-# Jupyter Notebook
-.ipynb_checkpoints
+    lolo.pendown()
+    lolo.forward(50)
 
-# IPython
-profile_default/
-ipython_config.py
+def writeR():
+    lolo.forward(50)
 
-# pyenv
-#   For a library or package, you might want to ignore these files since the code is
-#   intended to run in multiple environments; otherwise, check them in:
-# .python-version
+    lolo.penup()
+    lolo.forward(5)
+    lolo.pendown()
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
+    lolo.forward(50)
 
-# poetry
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
-#poetry.lock
+    lolo.penup()
+    lolo.right(90)
+    lolo.forward(5)
+    lolo.pendown()
 
-# pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#pdm.lock
-#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
-#   in version control.
-#   https://pdm.fming.dev/#use-with-ide
-.pdm.toml
+    lolo.forward(50)
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
-__pypackages__/
+    lolo.penup()
+    lolo.forward(5)
+    lolo.pendown()
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
+    lolo.right(90)
 
-# SageMath parsed files
-*.sage.py
+    lolo.forward(50)
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+    lolo.right(90)
+    lolo.penup()
+    lolo.forward(5)
+    lolo.pendown()
 
-# Spyder project settings
-.spyderproject
-.spyproject
+    lolo.forward(50)
+    lolo.goto(-50, -80)
 
-# Rope project settings
-.ropeproject
+def writeD():
+    lolo.forward(50)
 
-# mkdocs documentation
-/site
+    lolo.penup()
+    lolo.forward(5)
+    lolo.pendown()
 
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
+    lolo.forward(50)
 
-# Pyre type checker
-.pyre/
+    lolo.penup()
+    lolo.right(180)
+    lolo.forward(105)
+    lolo.left(90)
+    lolo.forward(5)
+    lolo.pendown()
 
-# pytype static type analyzer
-.pytype/
+    lolo.circle(105/2, 180)
 
-# Cython debug symbols
-cython_debug/
+def writeK():
+    lolo.forward(50)
 
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+    lolo.penup()
+    lolo.forward(5)
+    lolo.pendown()
+
+    lolo.forward(50)
+
+    lolo.penup()
+    lolo.right(180)
+    lolo.forward(50)
+    lolo.left(90)
+    lolo.forward(5)
+    lolo.pendown()
+
+    lolo.goto(165/2, 25)
+    lolo.penup()
+    lolo.goto(65/2, -25)
+    lolo.right(90)
+    lolo.forward(5)
+    lolo.pendown()
+    lolo.goto(165/2, -80)
+    lolo.left(90)
+
+
+def writeN():
+    lolo.forward(50)
+
+    lolo.penup()
+    lolo.forward(5)
+    lolo.pendown()
+
+    lolo.forward(50)
+
+    lolo.penup()
+    lolo.right(90)
+    lolo.forward(5)
+    lolo.pendown()
+
+    lolo.goto(120, -25)
+
+    lolo.penup()
+    lolo.forward(5/2)
+    lolo.right(90)
+    lolo.forward(5)
+    lolo.pendown()
+
+    lolo.goto(295/2, -80)
+
+    lolo.penup()
+    lolo.left(90)
+    lolo.forward(5)
+    lolo.left(90)
+    lolo.pendown()
+
+    lolo.forward(50)
+
+    lolo.penup()
+    lolo.forward(5)
+    lolo.pendown()
+
+    lolo.forward(50)
+
+lolo.penup()
+lolo.goto(-180, -80)
+lolo.pendown()
+
+lolo.left(90)
+writeA()
+
+lolo.penup()
+lolo.goto(-110, -80)
+lolo.pendown()
+
+lolo.right(90)
+
+writeR()
+
+lolo.right(180)
+lolo.penup()
+lolo.forward(10)
+lolo.pendown()
+
+lolo.left(90)
+
+writeD()
+
+lolo.penup()
+lolo.goto(55/2, -80)
+lolo.right(90)
+lolo.pendown()
+
+writeK()
+
+lolo.penup()
+lolo.forward(10)
+lolo.pendown()
+
+lolo.left(90)
+
+writeN()
+
+wn.exitonclick
